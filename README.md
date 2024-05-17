@@ -1,13 +1,4 @@
-# Content-Based-Movie-Recommender-System-with-sentiment-analysis
-
-Content Based Recommender System recommends movies similar to the movie user likes and analyses the sentiments on the reviews given by the user for that movie.
-
-<blockquote>
-   <b>Note</b>: The application has been updated to a newer version. Get the source code of the newer version <a href="https://github.com/kishan0725/AJAX-Movie-Recommendation-System-with-Sentiment-Analysis">here</a>
-</blockquote>
-
-![GIF](./static/mrswsa.gif)
-
+# Content-Based-Movie-Recommender-System-with-Sentiment-Analysis
 
 The details of the movies(title, genre, runtime, rating, poster, etc) are fetched using an API by TMDB, https://www.themoviedb.org/documentation/api, and using the IMDB id of the movie in the API, I did web scraping to get the reviews given by the user in the IMDB site using `beautifulsoup4` and performed sentiment analysis on those reviews.
 
